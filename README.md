@@ -1,9 +1,3 @@
-## Kimber J Portfolio 
+outdated version 
 
-Front End Technology 
-webflow | html | css | React | JSON
-
-Back End Technology
-
-### Planning
 
