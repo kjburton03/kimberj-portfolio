@@ -9,16 +9,12 @@ export const NavBar = () => {
             <li className="navbar__item active">
                 <Link className="navbar__link" to="/tickets">Tickets</Link>
             </li>
-            {
-                localStorage.getItem("honey_user")
-                    ? <li className="navbar__item navbar__logout">
-                        <Link className="navbar__link" to="" onClick={() => {
-                            localStorage.removeItem("honey_user")
-                            navigate("/", {replace: true})
-                        }}>Logout</Link>
-                    </li>
-                    : ""
-            }
+            <li className="navbar__item">
+                <Link className="navbar__link" to="/home">Home</Link>
+            </li>
+            <li className="navbar__item">
+                <Link className="navbar__link" to="/appList">Projects</Link>
+            </li>
         </ul>
     )
 }

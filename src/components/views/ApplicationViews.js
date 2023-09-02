@@ -1,7 +1,13 @@
+import { Outlet, Route, Routes } from "react-router-dom";
+import { Home } from "../homie/home";
+import { AppList } from "../apps/appList";
+
 export const ApplicationViews = () => {
-	return <>
-		<h1 className="title--main">Honey Rae Repairs</h1>
-		<div>Your one-stop shop for repairing your tech</div>
-	</>
+	return (
+		<Routes>
+			<Route path="/home" element={<Home />} />
+			<Route path="/appList" element={<AppList />} />
+		</Routes>
+	)
 }
 
