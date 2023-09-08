@@ -10,11 +10,13 @@ export const ContactKimberJ = () => {
                 type="text" 
                 name="name"
                 placeholder="name"/>
+                <br></br>
             <input 
                 type="email" 
                 name="email" 
                 placeholder="email"
                 />
+                <br></br>
             <textarea 
                 type="text" 
                 name="message" 
@@ -22,6 +24,7 @@ export const ContactKimberJ = () => {
                 placeholder="message"
 
             />
+            <br></br>
             <button 
             type="submit">Send</button>
                     </form>
