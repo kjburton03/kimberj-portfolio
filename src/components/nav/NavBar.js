@@ -23,6 +23,7 @@ export const NavBar = () => {
                 <Link className="navbar__link" to="/contactKimberj">Contact </Link>
             </li>
         </ul>
+        
     )
 }
 

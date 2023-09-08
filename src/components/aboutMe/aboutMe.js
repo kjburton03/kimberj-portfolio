@@ -1,3 +1,5 @@
+import "./aboutMe.css"
+
 export const AboutMe = () => {
     return <>
         <h1> she a baddy </h1>
