@@ -1,0 +1,10 @@
+tech__stack {
+    opacity: 40%;
+    min-height: 40px;
+    max-height: 41px;
+}
+
+.skill__titles {
+    color: rgb(205, 40, 213);
+    background-color: black;
+}
