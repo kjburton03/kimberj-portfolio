@@ -9,7 +9,7 @@ img {
     opacity: 440px;
     padding: .01%;
     max-width: 1200px;
-    
+
     
 }
 
@@ -20,6 +20,6 @@ img {
 }
 
 h2 {
-    background-color: rgb(85, 84, 84);
+    /* background-color: rgb(85, 84, 84); */
     opacity: 70%;
 }
