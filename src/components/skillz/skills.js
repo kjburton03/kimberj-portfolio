@@ -5,9 +5,10 @@ export const Skills = () => {
         <h3 className="skill__titles"> Tech Stack </h3>
 
         <h3 className="skill__titles">Utilities</h3>
-        <ul className="tech__stack">
-        <img className="tech__stack" src="postman.png" alt="postman" />
-        </ul>
+        <div className="tech__stack__container">
+        <img className="tech__stack" src="https://i.imgur.com/0psTasJ.png" alt="github" />
+            <img className="tech__stack" src="https://i.imgur.com/dv3bDci.png" alt="hmmm" />
+        </div>
     </> 
 
 }

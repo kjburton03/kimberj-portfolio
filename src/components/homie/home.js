@@ -1,14 +1,14 @@
 import "./home.css"
 
+
+
 export const Home = () => {
 	return <>
-		<h1 className="title--main">KimberJ Portfolio</h1>
+
 		<br></br>
 		<br></br>
 		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
+		<img src="https://i.imgur.com/V12hVK4.png" alt="kjcodinglogo" className="home__logo"/>
 		<br></br>
 		<br></br>
 		<br></br>
