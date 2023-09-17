@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom"
+import kimberJCoding from "./kimberJCoding.png"
 import "./NavBar.css"
 
 export const NavBar = () => {
@@ -7,11 +8,15 @@ export const NavBar = () => {
     return (
         <ul className="navbar">
 
-            <li className="navbar__item">
-                <Link className="navbar__link" to="/home">Home</Link>
+            <li className="kimberj">
+                <Link className="navbar__link" to="/home">
+                <img src={kimberJCoding} className="kimberj" />
+
+                </Link>
             </li>
             <li className="navbar__item">
-                <Link className="navbar__link" to="/aboutMe">About Me</Link>
+                <Link className="navbar__link" to="/aboutMe"> About Me
+                </Link>
             </li>
             <li className="navbar__item">
                 <Link className="navbar__link" to="/appList">Projects</Link>

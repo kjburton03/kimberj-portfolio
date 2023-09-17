@@ -1,10 +1,21 @@
-tech__stack {
-    opacity: 40%;
-    min-height: 40px;
-    max-height: 41px;
+.tech__stack {
+    opacity: 10000%;
+    min-height: 0px;
+    max-height: 91px;
+    border: 10px;
+    border-color: blanchedalmond;
+    justify-content: right;
 }
 
 .skill__titles {
     color: rgb(205, 40, 213);
     background-color: black;
+}
+
+.tech__stack__container {
+    border: 4px;
+    background-color: pink;
+    max-width: 500px;
+    justify-content: right;
+
 }

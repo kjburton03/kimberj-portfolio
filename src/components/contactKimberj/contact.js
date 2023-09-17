@@ -2,7 +2,8 @@ import "./contact.css"
 
 export const ContactKimberJ = () => {
     return <>
-        <h1> whats the addy </h1>
+            <h3>Wanna talk?</h3>
+        <h4> changing text here </h4>
         <article className="contact__form">
 
         <form action="https://getform.io/f/16f3f33c-8c18-4149-b2a3-945eb372e721" method="POST" className="forms">

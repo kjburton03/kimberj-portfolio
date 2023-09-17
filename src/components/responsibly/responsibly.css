@@ -1,4 +1,7 @@
-body {
-    background-image: url(https://i.imgur.com/rkITftz.png);
+.app__sub__titles {
+    color: blueviolet;
 }
 
+.app__title {
+    color: aquamarine;
+}
