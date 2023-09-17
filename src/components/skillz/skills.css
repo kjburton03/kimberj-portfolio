@@ -1,7 +1,9 @@
 .tech__stack {
     opacity: 10000%;
-    min-height: 0px;
-    max-height: 91px;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
     border: 10px;
     border-color: blanchedalmond;
     justify-content: right;
@@ -14,7 +16,7 @@
 
 .tech__stack__container {
     border: 4px;
-    background-color: pink;
+    background-color: rgb(87, 68, 71);
     max-width: 500px;
     justify-content: right;
 
