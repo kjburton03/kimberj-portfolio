@@ -1,4 +1,49 @@
-h3 {
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.boody {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #010718;
+}
+.container {
+    position: relative;
+    color: pink;
+    font-size: 30px;
+    font-weight: 600;
+    overflow: hidden;
+    background-color: black;
+}
+.container .text.first-text{
+    color: #FFF;
+}
+.text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid;
+    animation: animate 4s steps(12) infinite;
+    background-color: black;
+}
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%
+;    }
+    
+} */
+/* h3 {
     font-family: cursive;
     background-color: rgb(15, 17, 18);
     opacity: 50%;
@@ -7,4 +52,26 @@ h3 {
 
 h1 {
     color: aliceblue;
-}
+} */
+body {
+    background-color: #120439;
+    height: 100%;
+    font-family: 'tradegothiclt-bold', sans-serif;
+  }
+  
+  h1 {
+    font-size: 5em;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }

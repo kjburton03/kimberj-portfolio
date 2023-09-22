@@ -30,5 +30,6 @@ export const ContactKimberJ = () => {
             type="submit">Send</button>
                     </form>
                     </article>
+                    
     </>
 }
