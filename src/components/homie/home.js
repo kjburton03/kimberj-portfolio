@@ -17,7 +17,7 @@ export const Home = () => {
 		<br></br>
 		<br></br>
 
-		<div> penis</div>
+		{/* <div> penis</div> */}
 	</>
 }
 

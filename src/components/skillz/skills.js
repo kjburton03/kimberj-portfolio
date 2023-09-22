@@ -12,25 +12,33 @@ import tailwind from "../../assets/tailwind.png"
 
 export const Skills = () => {
     return <>
-        <h1>what can she dooooo</h1>
         <h3 className="skill__titles"> Tech Stack </h3>
 
         <h3 className="skill__titles">Utilities</h3>
         <div className="tech__stack__container">
-
+        <div className="grow">
         <img src={css3} className="tech__stack" />
+        {/* <h4> CSS </h4> */}
         <img src={html5} className="tech__stack" />
+        {/* <h4> HTML </h4> */}
         <img src={javascript} className="tech__stack" />
+        {/* <p> Javascript </p> */}
         <img src={react} className="tech__stack" />
+        {/* <p> React</p> */}
         <img src={tailwind} className="tech__stack" />
+        {/* <p> Tailwind </p> */}
+        <img src={github} className="tech__stack" />
+        {/* <p> GitHub </p> */}
         
         <img src={python} className="tech__stack" />
+        {/* <p> Python </p> */}
         <img src={django} className="tech__stack" />
+        {/* <p> Django </p> */}
 
         <img src={postman} className="tech__stack" />
+        {/* <p> Postman </p> */}
 
-        <img src={github} className="tech__stack" />
-
+        </div>
         </div>
     </> 
 

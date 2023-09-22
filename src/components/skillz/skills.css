@@ -6,18 +6,31 @@
     max-width: 150px;
     border: 10px;
     border-color: blanchedalmond;
-    justify-content: right;
+    justify-content: space-between;
 }
+.tech__stack 
 
 .skill__titles {
-    color: rgb(205, 40, 213);
-    background-color: black;
+    color: rgb(223, 39, 233);
+    max-height: 30px;
 }
 
 .tech__stack__container {
     border: 4px;
-    background-color: rgb(87, 68, 71);
+    background-color: rgb(62, 62, 62);
     max-width: 500px;
     justify-content: right;
 
 }
+.grow img{
+    transition: 1s ease;
+    }
+    
+    .grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+    
+    
