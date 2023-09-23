@@ -12,10 +12,11 @@ import tailwind from "../../assets/tailwind.png"
 
 export const Skills = () => {
     return <>
-        <h3 className="skill__titles"> Tech Stack </h3>
+        {/* <h3 className="skill__titles"> Tech Stack </h3> */}
 
-        <h3 className="skill__titles">Utilities</h3>
+        {/* <h3 className="skill__titles">Utilities</h3> */}
         <div className="tech__stack__container">
+        <p className="stacky__title">Tech Stack</p>
         <div className="grow">
         <img src={css3} className="tech__stack" />
         {/* <h4> CSS </h4> */}
