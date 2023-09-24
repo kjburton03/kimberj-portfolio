@@ -2,9 +2,10 @@ import { Link } from "react-router-dom"
 import "./appList.css"
 export const AppList = () => {
     return <> 
-    <h2>List of Apps</h2>
-    <div> work work work </div>
+    {/* <h2>List of Apps</h2> */}
+    {/* <div> work work work </div> */}
     <div className="projects">
+    <h2> Projects </h2>
     <Link className="app__link" to="/NashMurals">
     <img src="https://i.imgur.com/Iu1EgKL.png" alt="nash murals screen shot" />
     </Link>

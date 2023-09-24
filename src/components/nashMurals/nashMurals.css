@@ -1,0 +1,21 @@
+.nash__summary {
+    max-width: 400px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0f360c;/* Change this to your desired button background color */
+    color: #fff; /* Change this to your desired button text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: space-between;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #0c4c07; /* Change this to your desired hover color */
+}

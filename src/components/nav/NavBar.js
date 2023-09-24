@@ -6,14 +6,20 @@ export const NavBar = () => {
     const navigate = useNavigate()
 
     return (
-        <ul className="navbar">
 
-            <li className="kimberj">
+        <>
+        <div className="navbar">
+        
+            <p className="kimberj">
                 <Link className="navbar__link" to="/home">
                 <img src={kimberJCoding} className="kimberj" />
 
                 </Link>
-            </li>
+            </p>
+        
+        <ul className="navs">
+
+
             <li className="navbar__item">
                 <Link className="navbar__link" to="/aboutMe"> About Me
                 </Link>
@@ -28,7 +34,8 @@ export const NavBar = () => {
                 <Link className="navbar__link" to="/contactKimberj">Contact </Link>
             </li>
         </ul>
-        
+        </div>
+        </>
     )
 }
 
