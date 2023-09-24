@@ -5,7 +5,7 @@ export const ContactKimberJ = () => {
         <div className="form-container">
         <article className="contact__form">
         <h3 className="conact__title">Wanna talk?</h3>
-        <h4 className="contact__info"> Or reach out to me at kj.burton03@gmail </h4>
+
         <form action="https://getform.io/f/16f3f33c-8c18-4149-b2a3-945eb372e721" method="POST" className="forms">
             <input 
                 type="text" 
@@ -29,6 +29,7 @@ export const ContactKimberJ = () => {
             <button 
             type="submit">Send</button>
                     </form>
+                    <h4 className="contact__info"> Or reach out at kj.burton03@gmail </h4>
                     </article>
                     </div>
     </>
