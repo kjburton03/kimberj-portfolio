@@ -58,7 +58,7 @@ export const AboutMe = () => {
         // StartTextAnimation(0);
     // });
     return <>
-        <h1>Hello!</h1>
+        <h1>Kimberly Burton</h1>
         
     </>
 }
