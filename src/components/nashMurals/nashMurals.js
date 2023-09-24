@@ -2,7 +2,7 @@ import "./nashMurals.css"
 export const NashMurals = () => {
     return <>
         <h1> Nash Murals </h1>
-        <a href="https://oyster-app-vi6os.ondigitalocean.app" className="button" > Website </a>
+        <a href="https://oyster-app-vi6os.ondigitalocean.app" target="_blank" className="button" > Website </a>
         <a href="https://github.com/NashMurals" target="_blank" className="button" > Code </a>
         <p className="nash__summary"> Welcome to Nashville Murals, your ultimate guide to the captivating world of street art in Music City! Whether you're a local looking to explore your city's artistic treasures or a tourist eager to immerse yourself in Nashville's unique culture, our website is your one-stop destination for all things murals.</p>
 

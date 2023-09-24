@@ -1,18 +1,16 @@
-.app__sub__titles {
+/* .app__sub__titles {
     color: blueviolet;
 }
 
-.app__title {
-    color: aquamarine;
-}
 
-.res__summary {
-   background-color: aliceblue; 
-   opacity: 70%;
-   color: black;
-   max-width: 700px;
-   min-width: none;
+*/
+.app__title {
+    font-size: xx-large;
 }
+.res__summary {
+   max-width: 400px;
+   min-width: none;
+} 
 
 .whole__damn__page {
     /* display: flex;
@@ -32,4 +30,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0f360c;/* Change this to your desired button background color */
+    color: #fff; /* Change this to your desired button text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: space-between;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #0c4c07; /* Change this to your desired hover color */
 }
