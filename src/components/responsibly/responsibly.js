@@ -3,14 +3,12 @@ export const Responsibly = () => {
     return <>
         <div className="whole__damn
         __page">
-        <h2 className="app__title"> Responsibly Irresponsible </h2>
+        <h1 className="app__title"> Responsibly Irresponsible </h1>
 
-        <h2 className="app__sub__titles"> Code </h2>
-        <a href="https://github.com/kjburton03/responsibly_irresponsible" target="_blank" className="code__link" > front end </a>
-        <a href="https://github.com/kjburton03/responsibly_irresponsibly_server" target="_blank" className="code__link" > back end </a>
+        <a href="https://github.com/kjburton03/responsibly_irresponsible" target="_blank" className="button" > front end </a>
+        <a href="https://github.com/kjburton03/responsibly_irresponsibly_server" target="_blank" className="button" > back end </a>
 
         <div className="res__summary">
-        <h2 className="app__sub__titles"> About: </h2>
 
 
         <p> Responsibly Irresponsible is a unique and innovative to-do list platform designed to bring an element of fun and motivation to your daily chores and shopping desires. With this user-friendly tool, you can: </p>
