@@ -1,4 +1,24 @@
-.tech__stack {
+/* .tech__stack__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .stacky__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .tech__stack {
+    width: 90px; 
+    height: 100px; 
+    margin: 10px;
+  }
+   */
+
+   .tech__stack {
     opacity: 10000%;
     min-height: 150px;
     max-height: 150px;
@@ -17,9 +37,18 @@
 
 .tech__stack__container {
     border: 4px;
-    background-color: rgb(62, 62, 62);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: rgb(62, 62, 62); */
     max-width: 500px;
-    justify-content: right;
+    min-width: 500px;
+    /* justify-content: right; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 
 }
 .grow img{
@@ -33,4 +62,9 @@
     transition: 1s ease;
     }
     
-    
+.stacky__title {
+    color: rgb(179, 179, 226);
+    font-weight: bold;
+    font-size: 40px;
+
+}

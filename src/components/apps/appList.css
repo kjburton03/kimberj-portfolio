@@ -5,8 +5,8 @@ img {
 .projects {
     border: 40px;
     justify-content: space-between;
-    background-color: rgb(41, 89, 54);
-    opacity: 440px;
+    flex-wrap: wrap;
+    /* background-color: rgb(17, 30, 21); */
     padding: .01%;
     max-width: 1200px;
 

@@ -9,16 +9,18 @@
     list-style-type: none;
 } */
 
-.navbar {
-    display: flex;
-    justify-content: right;
-    align-items: center;
+/* .navbar {
+
     background-color: #333;
     color: white;
     list-style: none;
-    padding: 1rem;
+    padding: .5rem;
+  } */
+  /* .navs {
+    display: flex;
+    justify-content: right;
+    align-items: center;
   }
-  
   .navbar__item {
     margin-right: 1rem;
     float: right;
@@ -40,13 +42,103 @@
 
 .navbar__logout {
     margin-left: auto;
+} */
+
+/* .kimberj img { */
+    /* opacity: 20%; */
+    /* max-width: 40px; Adjust the max-width to your desired size */
+    /* height: auto; */
+    /* margin-right: auto; */
+    /* justify-content: right; */
+    /* float: left; */
+/* } */
+
+ /* .navbar {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  list-style: none;
+  padding: 1rem;
+} */
+/*
+.navbar__item {
+  margin-right: 1rem;
+  float: right;
+}
+
+.navbar__item.active {
+  font-weight: bold;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.navbar__logout {
+  margin-left: auto;
 }
 
 .kimberj img {
-    /* opacity: 20%; */
-    max-width: 40px; /* Adjust the max-width to your desired size */
-    height: auto;
-    margin-right: auto;
-    justify-content: right;
-    float: left;
+  max-width: 40px; 
+  height: auto;
+  margin-right: auto;
+  justify-content: right;
+  float: left;
+} */
+
+/* NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Set your desired background color */
+  padding: 10px 20px;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #fff; /* Set your desired text color */
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.navbar__link:hover {
+  color: #86c1a2; /* Set your desired hover color */
+}
+
+.kimberj img {
+  max-height: 40px; /* Set your desired height */
+}
+
+.navs {
+  list-style: none;
+  display: flex;
+}
+
+.navbar__item {
+  margin: 0 10px;
+}
+
+/* Media query for responsiveness (adjust as needed) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navs {
+    margin-top: 10px;
+  }
+
+  .navbar__item {
+    margin: 10px 0;
+  }
 }

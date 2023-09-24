@@ -5,3 +5,31 @@
 .app__title {
     color: aquamarine;
 }
+
+.res__summary {
+   background-color: aliceblue; 
+   opacity: 70%;
+   color: black;
+   max-width: 700px;
+   min-width: none;
+}
+
+.whole__damn__page {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 330px; */
+    border: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: rgb(62, 62, 62); */
+    max-width: 500px;
+    min-width: 500px;
+    /* justify-content: right; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
