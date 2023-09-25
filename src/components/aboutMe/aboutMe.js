@@ -59,7 +59,21 @@ export const AboutMe = () => {
     // });
     return <>
         <h1>Kimberly Burton</h1>
-        
+        <a href="https://drive.google.com/file/d/1HR-ZIpAh-zq8lkZV5ePbG6QSJb94vmWr/view?usp=sharing" target="_blank" className="button" > Resume </a>
+        <a href="https://github.com/kjburton03" target="_blank" className="button" >GitHub</a>
+        <a href="https://www.linkedin.com/in/kimberburton/" target="_blank" className="button" > LinkedIn </a>
+        <div className="about__sec">
+        <p> My journey in software development began in 2004 when I started styling my personal Xanga and MySpace pages with the trendiest backgrounds and captivating glitter words. After progressing through high school and spending a decade as a bartender, I've found myself immersed in software development once more, enjoying it more than ever before.
+        </p>
+        <p> In 2019, I dived back into the world of coding, rekindling my love for software development. This passion led me to a pivotal decision in 2022 when I enrolled at Nashville Software School. Fast forward to 2023, and I proudly emerged as a full-stack software developer, equipped with the skills and determination to make a difference in the tech world. </p>
+        <p>
+        My aspirations are firmly rooted in aiding small businesses by crafting websites that enhance their online presence and drive success. Once I have more experience, I cannot wait to delve into the realm of ethical hacking, with a particular focus on combating sex trafficking in America. </p>
+        <p>
+        I currently split my time between two incredible places, Nashville and Georgia. This dual lifestyle allows me to enjoy the best of both worlds – the bustling energy of city life in Nashville and the serene beauty of the countryside in Georgia. </p>
+        <p>In my free time you can find me bartending in Atlanta, going to shows in Nashville, house hunting in Rome, or fixing up my parents house in Kennesaw, or hiking with my dog at the closest park</p>
+        <p>
+        Thanks for stopping by and getting to know a bit about me!</p>
+        </div>
     </>
 }
 

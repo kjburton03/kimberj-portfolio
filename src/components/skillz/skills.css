@@ -20,10 +20,10 @@
 
    .tech__stack {
     opacity: 10000%;
-    min-height: 150px;
-    max-height: 150px;
-    min-width: 150px;
-    max-width: 150px;
+    min-height: 140px;
+    max-height: 140px;
+    min-width: 140px;
+    max-width: 140px;
     border: 10px;
     border-color: blanchedalmond;
     justify-content: space-between;
@@ -31,7 +31,7 @@
 .tech__stack 
 
 .skill__titles {
-    color: rgb(223, 39, 233);
+    /* color: rgb(223, 39, 233); */
     max-height: 30px;
 }
 
@@ -45,8 +45,8 @@
     min-width: 500px;
     /* justify-content: right; */
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 60%;
+    left: 60%;
     transform: translate(-50%, -50%);
 
 
@@ -63,7 +63,7 @@
     }
     
 .stacky__title {
-    color: rgb(179, 179, 226);
+    /* color: rgb(179, 179, 226); */
     font-weight: bold;
     font-size: 40px;
 

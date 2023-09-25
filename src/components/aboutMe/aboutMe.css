@@ -53,6 +53,8 @@
 h1 {
     color: aliceblue;
 } */
+/* 
+
 body {
     background-color: #120439;
     height: 100%;
@@ -74,4 +76,41 @@ body {
     50% {
       border-color: transparent;
     }
-  }
+  } */
+
+.about__sec {
+    max-width: 500px;
+    /* background-color: rgb(29, 36, 29); */
+    /* opacity: 30%; */
+    /* color:antiquewhite; */
+    font-size: large;
+    border-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #38373764;
+    max-width: 600px;
+    /* left: 40%; */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0f360c;/* Change this to your desired button background color */
+    color: #fff; /* Change this to your desired button text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: space-between;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #0c4c07; /* Change this to your desired hover color */
+}

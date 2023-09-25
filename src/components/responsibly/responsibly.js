@@ -24,7 +24,7 @@ export const Responsibly = () => {
 
             </ul>
 
-            <p> Responsibly Irresponsible turns your everyday responsibilities into rewarding opportunities, making chores more exciting and your shopping dreams attainable. Embrace a balanced approach to life, where you can be both responsible and indulge yourself without guilt. Get started now and turn your to-do list into a ticket to guilt-free shopping!</p>
+            <p> Responsibly Irresponsible turns your everyday responsibilities into rewarding opportunities, making chores more exciting and your shopping dreams attainable. Embrace a balanced approach to life, where you can be both responsible and indulge yourself without guilt. </p>
 
         </div>
         </div>
