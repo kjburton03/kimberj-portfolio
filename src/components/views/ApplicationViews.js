@@ -11,6 +11,8 @@ import { NashMurals } from "../nashMurals/nashMurals";
 export const ApplicationViews = () => {
 	return (
 		<Routes>
+			<Route path="/" element={<Home />} />
+
 			<Route path="/home" element={<Home />} />
 			<Route path="/appList" element={<AppList />} />
 			<Route path="/contactKimberj" element={<ContactKimberJ />} />
