@@ -5,6 +5,31 @@ import "./NavBar.css"
 export const NavBar = () => {
     const navigate = useNavigate()
 
+    // const pageHeader = () => {
+    //     let displayName = ""
+    //     if (!window.location.pathname.includes("login")) {
+    //         let thisPage = window.location.pathname.split("/")
+    //         if (thisPage.length === 2) {
+    //             if (thisPage[1] === "" || thisPage[1] === "home") {
+    //                 displayName = "Nash Murals"
+    //             } else if (thisPage[1] === "") {
+    //                 displayName = "Neighborhoods"
+    //             } else if (thisPage[1] === "murals") {
+    //                 displayName = "Murals"
+    //             }
+    //         } else if (thisPage.length === 3) {
+    //             let [, thisNamePlus] = window.location.search.split("=")
+    //             let [thisName,] = thisNamePlus.split('&')
+    //             thisName = decodeURIComponent(thisName)
+    //             if (thisPage[1] === "hood" || thisPage[1] === "murals") {
+    //                 displayName = thisName
+    //             }
+    //         }
+    //         else { displayName = "I'm pretty sure we're lost." }
+    //         return displayName
+    //     }
+    // }
+
     return (
 
         <>
